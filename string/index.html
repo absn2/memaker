@@ -7,6 +7,7 @@
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <p>1) Concatenar strings</p>
     <div>  
       <label for="nome">Escreva seu nome</label>
       <input id="nome" type="text"></input>
@@ -16,6 +17,49 @@
       <input id="sobrenome" type="text"></input>
     </div>
     <button onclick="nomeCompleto()">Clique</button>
+    <br />
+    <p>2) Tamanho da string</p>
+    <div>  
+      <label for="texto">Escreva um textinho</label>
+      <input id="texto" type="text"></input>
+    </div>
+    <button onclick="tamanhoTexto()">Clique</button>
+    <p>3) Posição de caractéres em uma string</p>
+    <div>  
+      <div>
+        <label for="text2">Escreva um textinho</label>
+        <input id="text2" type="text"></input>
+      </div>
+      <label for="pos">Posição do caractére</label>
+      <input id="pos" type="number"></input>
+    </div>
+    <button onclick="caractere()">Clique</button>
+    <p>4) Substituir Texto</p>
+    <div>  
+      <label for="text3">Escreva um textinho</label>
+      <input id="text3" type="text"></input>
+    </div>
+    <div>  
+      <label for="nome2">Escreva seu nome</label>
+      <input id="nome2" type="text"></input>
+    </div>
+    <button onclick="substituirTexto()">Clique</button>
+    <p>5) Substituir Por Minúsculas</p>
+    <div>  
+      <label for="text4">Escreva um textinho</label>
+      <input id="texto" type="text"></input>
+    </div>
+    <button onclick="minusculas()">Clique</button>
+    <p>6) Texto B está incluido no Texto A?</p>
+    <div>  
+      <label for="texto5">Texto A</label>
+      <input id="texto5" type="text"></input>
+    </div>
+    <div>  
+      <label for="texto6">Texto B</label>
+      <input id="texto6" type="text"></input>
+    </div>
+    <button onclick="includesTexto()">Clique</button>
     <script src="script.js"></script>
   </body>
 </html>
